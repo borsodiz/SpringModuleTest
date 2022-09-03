@@ -1,15 +1,12 @@
 package app.repositories;
 
-import app.models.SpaceShip;
 
+import app.models.Crew;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-
-
 @Repository
-public interface SpaceShipRepo extends CrudRepository<SpaceShip, Long> {
-
+public interface CrewRepo extends CrudRepository<Crew, Long> {
 
 
 }

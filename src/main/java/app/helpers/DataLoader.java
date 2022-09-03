@@ -25,7 +25,7 @@ public class DataLoader implements ApplicationRunner {
 
     private final ShipData shipData;
 
-    @Autowired
+
     public DataLoader(ShipData shipData) {
         this.shipData = shipData;
     }
@@ -68,6 +68,7 @@ public class DataLoader implements ApplicationRunner {
                 shipData.theEngineerShip()
         );
     }
+
 
     void saveShips(SpaceShip... ships) {
         for (SpaceShip ship : ships) {
